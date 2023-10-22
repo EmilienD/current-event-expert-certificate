@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "cinzel";
+    src: url("/fonts/cinzel/Cinzel-VariableFont_wght.ttf") format("truetype")
+}
+
+body {
+    padding: 5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fancy {
+    font-family: "cinzel", serif;
+    text-transform: uppercase;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+
+.diploma-container{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2em 0;
+    gap: 1em;
+}
+
+#diploma {
+    padding: 1em;
+    font-weight: 700;
+    width: 600px;
+    border: 1px solid black;
+    text-align: center;
+    background-image: url('/images/laurel.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+}
+img {
+    width: 100%;
+    margin: 1em auto;
+}
+
+.expert-name {
+    font-size: 2em;
+}
+
+.university {
+    margin-bottom: 1em;
+}
+
+.expertise-start {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.expertise {
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+.expert-block {
+    margin-top: 1em;
+}
+
+p{
+    margin: 0;
+}
+
+.watermark {
+    opacity: 0.2;
+}
+
+a {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
